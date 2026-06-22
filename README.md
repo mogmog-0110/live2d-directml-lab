@@ -66,6 +66,9 @@
 | [`src/NeuralDepth.hpp`](src/NeuralDepth.hpp) | ORT+DML 単眼深度（非同期ロード、ImageNet 前処理、クロップ） |
 | [`src/DX12NeuralRelight.hpp`](src/DX12NeuralRelight.hpp) | 加算リライト（深度→法線→動的光源、輝度フォールバック） |
 
-## ライセンス
+## クレジット / ライセンス
 
-コード：MIT。Cubism SDK / モデル素材・Depth-Anything モデルは各自取得（非同梱）。
+- 本リポジトリの**コードは MIT**。
+- 本実装は **Live2D Cubism SDK を使用**しています。**© Live2D Inc.** — SDK / Core の利用は各 [Cubism SDK 使用許諾](https://www.live2d.com/eula/live2d-sdk-license-agreement_jp.html) に従います（SDK 本体は同梱せず、各自 [公式](https://www.live2d.com/sdk/download/native/) から取得）。
+- 掲載画像のモデル（Haru など）は **Live2D Inc. の無償提供サンプルモデル**で、[Live2D Free Material License](https://www.live2d.com/eula/live2d-free-material-license-agreement_jp.html) に基づき表示。**モデルファイルは非同梱**。
+- 深度モデル **Depth-Anything-V2-Small**（Apache-2.0）は [onnx-community/depth-anything-v2-small](https://huggingface.co/onnx-community/depth-anything-v2-small) から取得（非同梱）。
